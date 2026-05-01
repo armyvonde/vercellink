@@ -2,7 +2,7 @@ export const config = {
   runtime: 'edge',
 };
 
-const TARGET = 'https://xhttp-relay-240874193350.us-central1.run.app';
+const TARGET = 'https://ar.besseralsnix.info';
 
 export default async function handler(req) {
   const url = new URL(req.url);
@@ -15,7 +15,7 @@ export default async function handler(req) {
     headers.set(k, v);
   }
 
-  headers.set('host', 'xhttp-relay-240874193350.us-central1.run.app');
+  headers.set('host', 'ar.besseralsnix.info');
 
   const hasBody = !['GET', 'HEAD'].includes(req.method);
 
