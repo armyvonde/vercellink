@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "https://xhttp-relay-240874193350.us-central1.run.app:443"
+      "destination": "/api/$1"
     }
   ]
 }
